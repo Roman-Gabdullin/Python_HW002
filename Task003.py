@@ -4,9 +4,7 @@
 import random
 
 list = []
-
-print('Введите количество элементов списка: ')
-quantity = int(input())
+quantity = int(input('Введите количество элементов списка: '))
 i = 1
 while i <= quantity:
     list.append(random.randint(1,10))
