@@ -6,12 +6,12 @@
 
 n = int(input('Введите количество чисел в списке: '))
 i = 1
-list = []
+my_list = []
 while i <= n:
-    list.append(round((1+1/i)**i,2))
+    my_list.append(round((1+1/i)**i,2))
     i+=1
-print(list)
+print(my_list)
 sum = 0
-for j in list:
+for j in my_list:
     sum+= j
 print(f'Сумма чисел списка = {sum}')
